@@ -1,0 +1,75 @@
+Q: What is the prompt displayed on the screen? 
+A: Здесь мы увидели базовую информацию об устройстве о его железе и прошивке
+После этого S1>
+
+Q: Which command begins with the letter ‘C’?
+A: connect!
+
+Q: Which commands are displayed?
+A: telnet  terminal  traceroute
+
+Q: Which commands are displayed?
+A: telnet  terminal
+
+Q: What information is displayed for the enable command
+A: Turn on privileged commands
+
+Q: What displays after pressing the Tab key?
+A: enable
+
+Q: What would happen if you typed te<Tab> at the prompt?
+A: Nothing, Because tab completion cannot make choose from several option, even predict
+
+
+
+
+
+
+
+
+
+Q: Enter the enable command and press Enter
+A: indeed of s1> we will have s1# and we turn on privileged execute mode
+
+
+
+
+Q: How many commands are displayed now that privileged Exec mode is active?
+A: 5 options
+
+
+
+
+
+Q: What is the message that is displayed?
+A: Configuring from terminal, memory, or network [terminal]?
+
+Q: How does the prompt change? 
+A: Now we extended (config), it is mean we in global conf exec mode
+
+Q: What information is displayed? What is the year that is displayed?
+A: 11:23:19.976 UTC Mon Mar 1 1993, year 1993
+
+Q: What information is displayed?
+A: % Incomplete command. Command need more parameters
+
+Q: What information is displayed? 
+A: set   Set the time and date
+
+Q: What information is being requested?
+A: hh:mm:ss    Current time
+
+Q: What would have been displayed if only the clock set command had been entered, and no request for help was made by using the question mark? 
+A: % Incomplete command
+
+Q: What information was returned? 
+A: Nothing
+
+Q: What information was returned?
+A: % Incomplete command.
+
+Q: What information was returned?
+A: % Invalid input detected at '^' marker.
+
+Q: What information was returned?
+A: % Invalid input detected at '^' marker.

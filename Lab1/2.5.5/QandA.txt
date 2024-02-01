@@ -1,0 +1,46 @@
+Q: How many Fast Ethernet interfaces does the switch have?
+A: 24
+
+Q: How many Gigabit Ethernet interfaces does the switch have? 
+A: 2
+
+Q: What is the range of values shown for the vty lines?
+A: 0 - 15
+
+Q: Which command will display the current contents of non-volatile random-access memory (NVRAM)? 
+A: show startup-config
+
+Q: Why does the switch respond with “startup-config is not present?”
+A: Because we are not save to ROM, only in RAM
+
+
+
+
+
+
+Q: Why is the login command required
+A: For add authentication, when anyone connect to device
+
+Q: Why is the enable secret password displayed differently from what we configured? 
+A: Because secret uses encrypted password, while password uses plain text
+
+Q: If you configure any more passwords on the switch, will they be displayed in the configuration file as plain text or in encrypted form?
+A: 'service password-encryption' encrypted and will encrypt all password
+
+Q: When will thes banner be displayed?
+A: When anyone try to connect device from console port
+
+Q: Why should every switch have a MOTD banner?
+A: We can use MOTD for giving important information about that device for people in our complany that will work with device and for warn unauthorized user.
+
+Q: What is the shortest, abbreviated version of the copy running-config startup-config command?
+A: cop r st
+
+Q: Which command will display the contents of NVRAM?
+A: show startup-config
+
+
+Q: Are all the changes that were entered recorded in the file?
+A: Yes, all information from running-config copied to startup-config
+
+Q: 

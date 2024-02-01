@@ -1,0 +1,18 @@
+Q: How can you verify that both passwords were configured correctly?
+A: I can check that, when i try to connect with cli to switch, the switch should ask me password, and should ask second time when try to turn on privileged exec mode. In addition i can just use command show running-config or startup-config(if i copy yet)
+
+Q: Which command do you issue to accomplish this step?
+A: copy running-config start-up config
+
+Q: Were you successful? Explain
+A: No, because, in our local network no device with ip 192.168.1.253
+
+Q: If this is the case, why would we configure it with an IP address? 
+A: For remotely connect to your device
+
+Q: Why do you enter the no shutdown command?
+A: Activate vlan
+
+Q: Which command is used to save the configuration file in RAM to NVRAM?
+A: copy running-config startup-config
+
